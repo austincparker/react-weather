@@ -10,7 +10,13 @@ function Initialize() {
 
   return (
     <div className="App">
-      <h2>INSIDE APP COMPONENT</h2>
+      <button
+        type="button"
+        id="those-words"
+        onClick={handleClick}
+      >
+        INSIDE APP COMPONENT
+      </button>
       <div>
         <button
           type="button"
